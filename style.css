@@ -45,3 +45,9 @@ section {
     border: solid 4px rgba(69, 131, 182, 0.4);
     border-radius: 8px;
 }
+
+#wander,
+#password,
+#scheduler {
+    width: 350px;
+}
