@@ -1,0 +1,47 @@
+:root {
+}
+
+* {
+    font-family: 'Miltonian Tattoo', cursive;
+    color:#e2c8a0;
+    letter-spacing: 5px;
+}
+
+body {
+    background-image: url("starryskies_01.jfif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* h2, #pageTitle{
+    font-family: 'Miltonian', cursive
+} */
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+li:hover {
+    cursor:pointer;
+    color: rgb(241, 162, 44);
+}
+
+nav{
+    padding: 10px;
+    background-color: rgba(119, 118, 118, 0.6);
+    border-top: solid 4px rgba(69, 131, 182, 0.4);
+    border-bottom: solid 4px rgba(69, 131, 182, 0.4);
+}
+
+section {
+    margin-top: 35px;
+    height: 450px;
+    background-color: rgba(119, 118, 118, 0.6);
+    border: solid 4px rgba(69, 131, 182, 0.4);
+    border-radius: 8px;
+}
