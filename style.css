@@ -40,7 +40,8 @@ nav{
 
 section {
     margin-top: 35px;
-    height: 450px;
+    height: auto;
+    width: auto;
     background-color: rgba(119, 118, 118, 0.6);
     border: solid 4px rgba(69, 131, 182, 0.4);
     border-radius: 8px;
@@ -48,6 +49,9 @@ section {
 
 #wander,
 #password,
-#scheduler {
+#scheduler,
+#portrait {
     width: 350px;
+    border: solid 4px rgba(69, 131, 182, 0.4);
+    border-radius: 8px;
 }
