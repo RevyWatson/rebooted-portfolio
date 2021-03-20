@@ -12,7 +12,7 @@
 
 body {
     background-image: url("starryskies_01.jfif"); /*image from https://unsplash.com/ by Mark Basarab*/
-    background-size:cover;
+    background-size:auto;
     background-repeat: no-repeat;
 }
 
