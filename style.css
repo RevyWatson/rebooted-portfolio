@@ -1,49 +1,55 @@
 :root {
+    --borders:rgba(4, 137, 247, 0.4); /*all borders*/
+    --backgroundColor:rgba(119, 118, 118, 0.6); /*background color for navbar and section elements*/
 }
 
 * {
-    font-family: 'Miltonian Tattoo', cursive;
-    color:#e2c8a0;
-    letter-spacing: 5px;
+    font-family: 'Della Respira', serif;
+    color:#f8daaf;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(3, 11, 27, 0.801); /*using shadow to help make the text more legable. I may need to use a different background image*/
 }
 
 body {
-    background-image: url("starryskies_01.jfif");
+    background-image: url("starryskies_01.jfif"); /*image from https://unsplash.com/ by Mark Basarab*/
     background-size:cover;
     background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
     text-align: center;
+    font-weight: bold;
 }
-
-/* h2, #pageTitle{
-    font-family: 'Miltonian', cursive
-} */
 
 li {
     list-style: none;
+    font-size: 25px;
+}
+
+p,
+article {
     font-size: 20px;
 }
 
 a:hover {
     cursor:pointer;
     color: rgb(241, 162, 44);
+    text-decoration: none;
 }
 
 nav{
     padding: 10px;
-    background-color: rgba(119, 118, 118, 0.6);
-    border-top: solid 4px rgba(69, 131, 182, 0.4);
-    border-bottom: solid 4px rgba(69, 131, 182, 0.4);
+    background-color: var(--backgroundColor);
+    border-top: solid 4px var(--borders);
+    border-bottom: solid 4px var(--borders);
 }
 
 section {
     margin-top: 35px;
     height: auto;
     width: auto;
-    background-color: rgba(119, 118, 118, 0.6);
-    border: solid 4px rgba(69, 131, 182, 0.4);
+    background-color: var(--backgroundColor);
+    border: solid 4px var(--borders);
     border-radius: 8px;
 }
 
@@ -52,10 +58,11 @@ section {
 #scheduler,
 #portrait {
     width: 350px;
-    border: solid 4px rgba(69, 131, 182, 0.4);
+    border: solid 4px var(--borders);
     border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(3, 11, 27, 0.753);
 }
 
 i {
-    color: #007bff;
+    color: rgba(4, 137, 247);
 }
