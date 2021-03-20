@@ -1,6 +1,7 @@
 :root {
     --borders:rgba(4, 137, 247, 0.4); /*all borders*/
     --backgroundColor:rgba(119, 118, 118, 0.6); /*background color for navbar and section elements*/
+    --hoverColor:rgba(241, 162, 44, 0.856);
 }
 
 * {
@@ -34,7 +35,7 @@ article {
 
 a:hover {
     cursor:pointer;
-    color: rgb(241, 162, 44);
+    color: var(--hoverColor);
     text-decoration: none;
 }
 
@@ -54,14 +55,23 @@ section {
     border-radius: 8px;
 }
 
-#wander,
-#password,
-#scheduler,
-#portrait {
+img {
     width: 350px;
     border: solid 4px var(--borders);
     border-radius: 8px;
     box-shadow: 2px 2px 5px rgba(3, 11, 27, 0.753);
+}
+
+.glow {
+    position: relative;
+    z-index: 1;
+}
+
+.glow:hover {
+    border: solid 4px var(--hoverColor);
+    transform: scale(1.5);
+    justify-content: center;
+    z-index: 2;
 }
 
 i {
