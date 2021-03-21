@@ -69,10 +69,10 @@ img {
 
 .glow:hover {
     border: solid 4px var(--hoverColor);
-    transform: scale(1.5);
+    /* transform: scale(1.5);
     justify-content: center;
-    z-index: 2;
-}
+    z-index: 2; */
+}/*The above enlarges the images on hover BUT it does weird things in mobile so I commented it out for now*/
 
 i {
     color: rgba(4, 137, 247);
