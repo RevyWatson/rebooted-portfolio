@@ -13,8 +13,9 @@
 
 body {
     background-image: url("starryskies_01.jfif"); /*image from https://unsplash.com/ by Mark Basarab*/
-    background-size:auto;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 h1, h2, h3 {
