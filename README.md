@@ -13,7 +13,3 @@ This application was built using dynamic HTML and CSS. In addition I also utiliz
 ![Screenshot (72)](https://user-images.githubusercontent.com/76264693/111855399-15de6f80-88fb-11eb-8ea7-85f2aaeaf138.png)
 
 The background image is curtesy of [Upsplash](https://unsplash.com/). The photo was taken by Mark Basarab. Check out his work at [Mark Basarab Visuals](https://www.markbasarab.com/).
-
-## Future Development
-In the future I hope to add more of my projects and applications. I'd also like to add features to utilize JavaScript.
-Portfolio: https://revywatson.github.io/rebooted-portfolio/
